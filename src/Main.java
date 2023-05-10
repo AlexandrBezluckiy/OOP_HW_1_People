@@ -27,7 +27,8 @@ public class Main {
         person5.weight = 63;
 
         double midle_age = (person1.age + person2.age + person3.age + person4.age + person5.age) / 5;
-        System.out.println(midle_age);
+        double midle_weight = (person1.weight + person2.weight + person3.weight + person4.weight + person5.weight) / 5;
+        System.out.println("Midle age = " + midle_age + "\nMidle weight = " + midle_weight);
 
     }
 }
